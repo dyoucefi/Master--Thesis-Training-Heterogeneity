@@ -12,16 +12,16 @@ Second step: Create :
 - DML: DML- ATE.py to estimate ATE with MRI and PLR and DML-ATT.py to estimate ATT with MRI
 - Routinecf.R to run binary processing on all cohorts and linear processing for September 2017 with Causal Forest
 
-Tip: run the scripts on the terminal for python and R. For R, you can launch the execution in the background on the terminal with Rscript: write C:/Users/dalil.youcefi/Documents/R/R-4.1.1/bin/Rscript.exe routinecf.R & ,the & allowing to launch the execution in the background.
+Tip: run the scripts on the terminal for python and R. For R, you can launch the execution in the background on the terminal with Rscript: write .../R/R-4.1.1/bin/Rscript.exe routinecf.R & ,the & allowing to launch the execution in the background.
 
 Third step: extract the results for R: these are the codes Exploitation Causal Forest Binaire.R and Exploitation Causal Forest traitement continu.R.
 
-Step four: Use notebooks to produce tables and graphs
+Fouth step: Use notebooks to produce tables and graphs
 
 
-File exploitation instrumental variable: Matrice de Distance Commune OFs.R. geolocates OFs with their addresses and creates the distance matrix with all communes.
+Folder "Exploitation Variable Instrumentale": Matrice de Distance Commune OFs.R. geolocates OFs with their addresses and creates the distance matrix with all communes.
 
-Instrumental variable creation.R: calculates for each ERP the annual variation of OFs present in its mobility zone. Unconvincing results with GMPs. They should be reproduced with the RCOs, with information on sessions by month, and the instrument created: Session programmed in month m year n when a PRE enters training - number of training sessions - number of training sessions - number of training sessions - number of training sessions - number of training sessions - number of training sessions - number of training sessions - number of training sessions - number of training sessions.
+Instrumental variable creation.R: calculates for each ERP the annual variation of OFs present in its mobility zone. Unconvincing results with GMPs. They should be reproduced with the RCOs, with information on sessions by month, and the instrument created: Session programmed in month m year n when a PRE enters training - number of training sessions of year n-1 and month m.
 
 
 
