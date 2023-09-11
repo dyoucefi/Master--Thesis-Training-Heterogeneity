@@ -9,7 +9,7 @@ Here a the codes that I used for my master thesis evaluating the impact of train
 First step: run the 0-data_processing_for_python_r.R file to prepare data for DML python and Causal Forest codes on R
 
 Second step: Create : 
-- DML: DML- ATE.py to estimate ATE with MRI and PLR and DML-ATT.py to estimate ATT with MRI
+- DML: DML- ATE.py to estimate ATE with MRI and PLR and DML-ATT.py to estimate ATT with IRM.
 - Routinecf.R to run binary processing on all cohorts and linear processing for September 2017 with Causal Forest
 
 Tip: run the scripts on the terminal for python and R. For R, you can launch the execution in the background on the terminal with Rscript: write .../R/R-4.1.1/bin/Rscript.exe routinecf.R & ,the & allowing to launch the execution in the background.
